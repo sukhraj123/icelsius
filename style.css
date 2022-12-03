@@ -138,13 +138,13 @@ header p{
 .about{
 
     margin: auto;
-    width: 100%;
+    
     background-image: url(4.png);
-    background-size: cover;
+    background-size: 100%;
     
     position:-webkit-sticky;
     background-attachment: fixed;
-  background-position: center;
+ 
   background-repeat: no-repeat;
     text-align: center;
     padding-top: 400px;
