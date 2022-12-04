@@ -95,7 +95,7 @@ header p{
     min-height: 200px;
     width: 100%;
     
-    background-image: url(bg1.png);
+    background-color: #0071bc;
     
     
     background-size: 100%;
@@ -119,7 +119,7 @@ header p{
     
     
     display: flex;
-    background-size: 400%;
+    background-size: 200%;
     
     background-image: url(bg4.png);
     position:-webkit-sticky;
@@ -692,7 +692,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     .break{
         display: block;
-        background-size: 200%;
+        
     }
     .fcf-body{
         max-width: 80%;
@@ -999,6 +999,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
             .breakk {
                 display: block;
                 margin: auto;
+                background-size: 300%;
             }
             .breakk img{
                 width: 300px;
@@ -1130,7 +1131,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .bottom img{
-    width: 20px;
+    width: 50px;
     padding-top: 100px;
 }
 .ig img{
