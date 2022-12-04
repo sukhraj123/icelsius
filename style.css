@@ -15,6 +15,14 @@ nav.sticky{
     top: 0;
     
 }
+.phone h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 200;
+}
+.sociall h1{
+    font-weight: 200;
+}
 header{
     width: 100%;
     background-color: #252525;
@@ -1107,7 +1115,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
 }
 .social h1{
-    color: #fff;
+    color: #fa7e09;
+    font-weight: 200;
 }
 .social img{
     width: 900px;
