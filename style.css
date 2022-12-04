@@ -21,7 +21,7 @@ header{
     
     margin: auto;
     height: 500px;
-    background-image: url(bg1.png);
+    background-image: url(2bg.png);
     background-size: 100%;
     
     
@@ -35,7 +35,7 @@ header img{
 
 }
 header h1{
-    color: #fff
+    color: rgb(0, 0, 0)
     ;
     font-size: 82px;
 }
@@ -66,7 +66,7 @@ header p{
 }
 .text-box h1{
     font-size: 80px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 200;
     position:-webkit-sticky;
 }
@@ -873,7 +873,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         width: 200px;
        }
        header{
-        background-size: 300%;
+        background-size: 450%;
+        background-image: url(5bg.png);
        }
        .about{
         background-size: 300%;
@@ -909,7 +910,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     .text-box h1{
         text-align: center;
         font-size: 52px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         display: block;
         animation: fadeIn 5s;
 
