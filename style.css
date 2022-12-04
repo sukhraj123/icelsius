@@ -199,6 +199,7 @@ nav{
     background-attachment: fixed;
     justify-content: space-between;
     align-items: left;
+    background-color: transparent;
    
    
     
@@ -908,7 +909,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin: auto;
     }
     .text-box h1{
-        text-align: center;
+        text-align: right;
         font-size: 52px;
         color: #fa7e09;
         display: block;
