@@ -6,6 +6,9 @@
     overflow-x: hidden;
 
 }
+.hi{
+    justify-content: space-between;
+}
 
 nav.sticky{
     position: fixed;
@@ -17,7 +20,7 @@ header{
     background-color: #252525;
     
     margin: auto;
-    height: 400px;
+    height: 500px;
     background-image: url(bg1.png);
     background-size: 100%;
     
@@ -73,7 +76,25 @@ header p{
     position:-webkit-sticky;
     color: #fff;
 }
-
+.hero-btn{
+    margin: auto;
+    text-decoration-style: none;
+    flex-basis: 30%;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #0071bc;
+    position: relative;
+    cursor: pointer;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .hero-htn{
     display: inline-block;
     text-decoration-style: none;
@@ -91,12 +112,18 @@ header p{
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
 }
+.order h1{
+    font-size: 38px;
+text-align: center;
+}
 .break{
     
+    padding-top: 50px;
+    padding-bottom: 50px;
     
-    background-color: #0071bc;
-    
-    
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
     background-size: 100%;
     
     position:-webkit-sticky;
@@ -108,12 +135,8 @@ header p{
     
 
 }
-.break a{
-    position:-webkit-sticky;
 
-}
 .breakk{
-    
     
     
     
@@ -160,6 +183,11 @@ header p{
 
 }
 .hero-htn:hover{
+    border: 10px solid #fa7e09;
+    background: #fa7e09;
+    transition: 1s;
+}
+.hero-btn:hover{
     border: 10px solid #fa7e09;
     background: #fa7e09;
     transition: 1s;
@@ -213,6 +241,20 @@ nav img{
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.links{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-basis: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+.links img{
+    width: 200px;
 }
 nav .fa{
     display: none;
@@ -326,6 +368,9 @@ p{
 }
 .seo .tru{
     width: 150px;
+}
+.seo p{
+    color: #000;
 }
 .pp{
     width: 100%;
@@ -669,6 +714,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         display: block;
         width: 30px;
     }
+    .bottom img{
+        width: 30px;
+    }
     .logo{
         display: block;
     }
@@ -691,7 +739,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     .break{
         display: block;
-        
+        margin: auto;
+        justify-content: space-between;
     }
     .fcf-body{
         max-width: 80%;
@@ -961,9 +1010,17 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin: auto;
     }
     @media(max-width: 700px){
+        .links{
+            display: block;
+            margin: auto;
+            padding-right: 5%;
+        }
         .hero-btn {
             display: block;
             margin: auto;
+            width: 80%;
+            padding: 10px;
+            justify-content: space-between;
         }
         .map {
             display: block;
@@ -1010,9 +1067,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     .pic img{
         width: 100vw;
     }
-    .bottom img{
-        width: 30px;
-    }
 }
 .bottom{
 
@@ -1047,9 +1101,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
     
     
-}
-.hi{
-    justify-content: space-between;
 }
 .social h1{
     color: #fff;
