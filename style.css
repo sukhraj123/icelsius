@@ -1011,6 +1011,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     .pic img{
         width: 100vw;
     }
+    .bottom img{
+        width: 30px;
+    }
 }
 .bottom{
 
@@ -1045,6 +1048,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
     
     
+}
+.hi{
+    justify-content: space-between;
 }
 .social h1{
     color: #fff;
