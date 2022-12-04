@@ -875,7 +875,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     @media(max-width: 900px){
         .phone h1{
-            font-size: 18px;
+            font-size: 14px;
         }
         nav img{
             width: 100px;
