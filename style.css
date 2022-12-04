@@ -19,7 +19,7 @@ header{
     margin: auto;
     height: 500px;
     background-image: url(bg1.png);
-    background-size: 300%;
+    background-size: 100%;
     
     
     position:-webkit-sticky;
@@ -98,15 +98,15 @@ header p{
     background-image: url(bg1.png);
     
     
-    background-size: 250%;
+    background-size: 100%;
     
     position:-webkit-sticky;
-    background-attachment: fixed;
+    
   
   background-repeat: no-repeat;
     display: flex;
     
-    padding-top: 25px;
+    
 
 }
 .break a{
@@ -114,41 +114,40 @@ header p{
 
 }
 .breakk{
-    min-height: 200px;
-    width: 100%;
     
-    background-position: center;
+    
+    
+    
     display: flex;
-    background-size: 250%;
+    background-size: 400%;
     
     background-image: url(bg4.png);
     position:-webkit-sticky;
     
-  background-position: center;
+  
   background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
 
 
 }
 .breakk img{
-    width: 700px;
+    width: 600px;
     position:-webkit-sticky;
 }
 .about{
 
     margin: auto;
-    
+    width: 100%;
     background-image: url(4.png);
-    background-size: 400%;
+    background-size: 100%;
     
     position:-webkit-sticky;
-    background-attachment: fixed;
- 
+    
+  
   background-repeat: no-repeat;
     text-align: center;
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 .roww img{
@@ -221,6 +220,7 @@ nav .fa{
     
 }
 
+
 .service{
 display: flex;
     width: 90%;
@@ -281,7 +281,7 @@ p{
    
     position:-webkit-sticky;
     
-    margin-top: 50px;
+    
     border: #fa7e09;
     border-radius: 10px;
     border-style: ridge;
@@ -368,9 +368,7 @@ h4{
 
 
 }
-.social h1{
-    color: #fff;
-}
+
 .bottom{
 
     background-color: #1b1b11;
@@ -379,7 +377,7 @@ h4{
     
     position:-webkit-sticky;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     
     text-align: center;
     animation: fadeIn 5s;
@@ -694,6 +692,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     .break{
         display: block;
+        background-size: 200%;
     }
     .fcf-body{
         max-width: 80%;
@@ -825,6 +824,20 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
        .header img{
         width: 200px;
        }
+       header{
+        background-size: 300%;
+       }
+       .about{
+        background-size: 300%;
+       }
+       .sociall{
+        
+            background-size: 300%;
+           
+       }
+       .sociall{
+        background-size: 300%;
+       }
     .rowww a{
         display: block;
         margin: auto;
@@ -926,7 +939,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
    
     position: -webkit-sticky;
     
-    margin-top: 50px;
+    
     border: #fa7e09;
     border-radius: 10px;
     border-style: ridge;
@@ -1006,7 +1019,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
     position:-webkit-sticky;
     background-position: center;
-    background-size: 250%;
+    background-size: cover;
     
     text-align: center;
     animation: fadeIn 5s;
@@ -1026,11 +1039,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     transition: 0.5s;
     text-align: center;
     position:-webkit-sticky;
-    background-size: 250%;
+    background-size: 200%;
     background-image: url(bg2.png);
     
     
     
+}
+.social h1{
+    color: #fff;
 }
 .social img{
     width: 900px;
