@@ -19,7 +19,7 @@ header{
     margin: auto;
     height: 500px;
     background-image: url(bg1.png);
-    background-size: 250%;
+    background-size: 300%;
     
     
     position:-webkit-sticky;
@@ -140,7 +140,7 @@ header p{
     margin: auto;
     
     background-image: url(4.png);
-    background-size: 100%;
+    background-size: 400%;
     
     position:-webkit-sticky;
     background-attachment: fixed;
@@ -368,7 +368,9 @@ h4{
 
 
 }
-
+.social h1{
+    color: #fff;
+}
 .bottom{
 
     background-color: #1b1b11;
@@ -377,7 +379,7 @@ h4{
     
     position:-webkit-sticky;
     background-position: center;
-    background-size: 250%;
+    background-size: cover;
     
     text-align: center;
     animation: fadeIn 5s;
