@@ -902,14 +902,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         border-radius: 8px;
     }
     
-     .text-box{
+    .text-box{
         width: 50%;
-        top: 40%;
+        top: 30%;
         display: block;
         margin: auto;
+        left: 70%;
     }
     .text-box h1{
         text-align: right;
+        left: 65%;
         font-size: 52px;
         color: #fa7e09;
         display: block;
